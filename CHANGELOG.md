@@ -1,3 +1,15 @@
+# v0.0.2 (Fri Feb 13 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Add '/run' route to list directory contents ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+#### Authors: 1
+
+- mobin mazahery ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+---
+
 # v0.0.1 (Fri Feb 13 2026)
 
 :tada: This release contains work from a new contributor! :tada:
