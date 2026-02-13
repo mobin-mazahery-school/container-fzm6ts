@@ -1,3 +1,15 @@
+# v0.0.8 (Fri Feb 13 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Update app.py ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+#### Authors: 1
+
+- mobin mazahery ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+---
+
 # v0.0.7 (Fri Feb 13 2026)
 
 #### 🐛 Bug Fix
