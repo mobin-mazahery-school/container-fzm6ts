@@ -1,3 +1,15 @@
+# v0.0.4 (Fri Feb 13 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Update index.html ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+#### Authors: 1
+
+- mobin mazahery ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+---
+
 # v0.0.3 (Fri Feb 13 2026)
 
 #### ⚠️ Pushed to `main`
