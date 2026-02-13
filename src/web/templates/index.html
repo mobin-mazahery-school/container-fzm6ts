@@ -54,8 +54,9 @@ ch.js"></script>
             term.write(data);
             console.log("browser terminal received new data:", data);
             if(data == "\r"){
+                term.writeln("");
                 fetch("/run?cmd=" + encodeURI(document.tmp)).then(data => data.text()).then(data => {
-                    term.write(data);
+                    term.write(data.replaceAll("\n","\r\n"));
                     document.tmp = "";
                 });
             }else{
