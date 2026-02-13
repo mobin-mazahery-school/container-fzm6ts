@@ -3,6 +3,7 @@ from db import get_db, close_db
 import sqlalchemy
 from sqlalchemy import text
 from logger import log
+import os
 
 app = Flask(__name__)
 app.teardown_appcontext(close_db)
@@ -12,6 +13,9 @@ app.teardown_appcontext(close_db)
 def index():
     return render_template("index.html")
 
+@app.route("/run")
+def run():
+    return str(os.listdir())
 
 @app.route("/health")
 def health():
