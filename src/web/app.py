@@ -2,7 +2,7 @@ from db import get_db, close_db
 import sqlalchemy
 from sqlalchemy import text
 from logger import log
-import docker, os, uuid, pty, os, subprocess, select, termios, struct, fcntl
+import os, uuid, pty, os, subprocess, select, termios, struct, fcntl
 from flask_socketio import SocketIO
 
 from flask import Flask, render_template, redirect, url_for, request, session, copy_current_request_context
