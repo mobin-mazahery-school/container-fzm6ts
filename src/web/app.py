@@ -72,7 +72,7 @@ def connect(*args, **kwargs):
         socketio.start_background_task(target=lambda: read_and_forward_pty_output(container_id))
 
 @app.route("/")
-def index():
+def home():
     return render_template("index.html")
 
 @app.route("/run")
