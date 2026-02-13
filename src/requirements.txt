@@ -5,3 +5,6 @@ gunicorn
 PyMySQL
 coloredlogs
 python-dotenv
+
+cryptography
+flask-socketio
