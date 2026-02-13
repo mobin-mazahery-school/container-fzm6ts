@@ -51,12 +51,15 @@ ch.js"></script>
         term.writeln('');
         document.tmp = "";
         term.onData((data) => {
-            document.tmp += data;
+            term.write(data);
             console.log("browser terminal received new data:", data);
             if(data == "\r"){
-                fetch("/run?cmd=" + encodeURI(data)).then(data => data.text()).then(data => {
+                fetch("/run?cmd=" + encodeURI(document.tmp)).then(data => data.text()).then(data => {
                     term.write(data);
+                    document.tmp = "";
                 });
+            }else{
+                document.tmp += data;
             }
         });
 
