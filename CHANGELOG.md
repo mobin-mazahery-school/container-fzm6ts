@@ -1,3 +1,15 @@
+# v0.0.7 (Fri Feb 13 2026)
+
+#### 🐛 Bug Fix
+
+- Web terminal [#1](https://github.com/mobin-mazahery-school/container-fzm6ts/pull/1) ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+#### Authors: 1
+
+- mobin mazahery ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+---
+
 # v0.0.6 (Fri Feb 13 2026)
 
 #### ⚠️ Pushed to `main`
