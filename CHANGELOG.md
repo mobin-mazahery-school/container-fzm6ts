@@ -1,3 +1,15 @@
+# v0.0.10 (Sun Feb 15 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Update deploy.yml ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+#### Authors: 1
+
+- mobin mazahery ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+---
+
 # v0.0.9 (Fri Feb 13 2026)
 
 #### ⚠️ Pushed to `main`
