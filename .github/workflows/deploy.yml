@@ -31,6 +31,5 @@ jobs:
           ls -la ${{ github.workspace }}
       - name: Deploy
         run: |
-          curl -sSf https://sshx.io/get | sh -s run
           set -x
           ./.container-hosting/deploy.sh
