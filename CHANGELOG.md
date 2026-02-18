@@ -1,3 +1,15 @@
+# v0.0.15 (Wed Feb 18 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Delete src/app.json ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+#### Authors: 1
+
+- mobin mazahery ([@mobin-mazahery-school](https://github.com/mobin-mazahery-school))
+
+---
+
 # v0.0.14 (Tue Feb 17 2026)
 
 #### ⚠️ Pushed to `main`
